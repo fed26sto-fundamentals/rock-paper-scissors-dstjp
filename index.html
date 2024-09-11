@@ -31,6 +31,8 @@
 
 
 <script>
+
+    /* Add Storage JSON */
     const score = {
         wins: 0,
         losses: 0,
@@ -78,6 +80,7 @@
             score.ties += 1;
         }
 
+        /* Add Storage JSON */
 
         alert(`You picked ${playerMove}, computer picked ${computerMove}. ${result}
 Wins: ${score.wins} Losses: ${score.losses} Ties: ${score.ties}`);
